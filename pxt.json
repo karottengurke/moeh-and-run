@@ -1,6 +1,6 @@
 {
     "name": "jump and run",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -18,5 +18,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
