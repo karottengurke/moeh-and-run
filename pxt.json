@@ -1,19 +1,22 @@
 {
     "name": "jump and run",
+    "version": "0.0.1",
+    "description": "",
     "dependencies": {
         "device": "*",
         "palette": "*",
         "animation": "*"
     },
-    "description": "",
     "files": [
         "main.blocks",
         "main.ts",
         "README.md"
     ],
-    "preferredEditor": "tsprj",
     "testFiles": [
         "test.ts"
     ],
-    "version": "0.0.1"
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
 }
