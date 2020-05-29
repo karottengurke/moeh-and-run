@@ -571,7 +571,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.speedpotion, function (sprite, otherSprite) {
     controller.moveSprite(mySprite, 150, 0)
     otherSprite.destroy()
-    info.startCountdown(15)
+    info.startCountdown(16)
     mySprite.setImage(img`
 . . . . . . . . . . . . . . . . 
 . . . . 2 2 2 2 2 2 2 . . . . . 
